@@ -1,10 +1,11 @@
 import './App.css';
-import PHome from './Pages/PHome/PHome';
+import AppRoutes from './routes';
 
-function App(){
-  return(
+function App() {
+
+  return (
     <>
-      <PHome/>
+      <AppRoutes />
     </>
   )
 }
